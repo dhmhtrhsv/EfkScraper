@@ -33,8 +33,10 @@ def notifications():
 		s.starttls()
 		s.login("efka.notifications@gmail.com", "xdrgb12!@") 
 		#message = "Τα ειδοποιητήρια του ΕΦΚΑ αναρτήθηκαν."
+		sender = "efka.notifications@gmail.com"
+		recipients = ["dhmhtrhsv@hotmail.com", "efka.notifications@gmail.com"]
 		message = 'Subject: {}\n\n{}'.format("Ειδοποιητήρια ΕΦΚΑ", "Τα ειδοποιητήρια του ΕΦΚΑ αναρτήθηκαν")
-		s.sendmail("efka.notifications@gmail.com", "dhmhtrhsv@hotmail.com", message.encode('utf-8'))
+		s.sendmail(sender, recipients, message.encode('utf-8'))
 		s.quit()
 		print("stalthike")
 		time.sleep(15*24*60*60) # stamato na trexo gia 15 meres
