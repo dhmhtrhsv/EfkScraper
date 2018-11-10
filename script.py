@@ -27,7 +27,7 @@ def notifications():
 		print("Anartithikan ta eidopoiitiria")
 	print (anartithikan)
 
-	if anartithikan != True:
+	if anartithikan == True:
 		print("bika")
 		s = smtplib.SMTP('smtp.gmail.com', 587)
 		s.starttls()
