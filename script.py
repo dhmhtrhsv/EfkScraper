@@ -31,7 +31,7 @@ def notifications():
 		print("bika")
 		s = smtplib.SMTP('smtp.gmail.com', 587)
 		s.starttls()
-		s.login("efka.notifications@gmail.com", "xdrgb12!@") 
+		s.login("efka.notifications@gmail.com", "dcrget12!@") 
 		#message = "Τα ειδοποιητήρια του ΕΦΚΑ αναρτήθηκαν."
 		sender = "efka.notifications@gmail.com"
 		recipients = ["dhmhtrhsv@hotmail.com", "efka.notifications@gmail.com"]
