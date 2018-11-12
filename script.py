@@ -34,7 +34,7 @@ def notifications():
 		s.login("efka.notifications@gmail.com", "dcrget12!@") 
 		#message = "Τα ειδοποιητήρια του ΕΦΚΑ αναρτήθηκαν."
 		sender = "efka.notifications@gmail.com"
-		recipients = ["dhmhtrhsv@hotmail.com", "efka.notifications@gmail.com"]
+		recipients = ["dhmhtrhsv@hotmail.com", "efka.notifications@gmail.com","gtsapelas@epu.ntua.gr"]
 		message = 'Subject: {}\n\n{}'.format("Ειδοποιητήρια ΕΦΚΑ", "Τα ειδοποιητήρια του ΕΦΚΑ αναρτήθηκαν")
 		s.sendmail(sender, recipients, message.encode('utf-8'))
 		s.quit()
