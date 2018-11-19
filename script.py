@@ -18,7 +18,7 @@ def notifications():
 	if anartithikan == True:
 		s = smtplib.SMTP('smtp.gmail.com', 587)
 		s.starttls()
-		s.login("name@gmail.com", "password") # Here you write your gmail account and password
+		s.login("efka.notifications@gmail.com", "dcrget12!@")  # Here you write your gmail account and password
 		sender = "efka.notifications@gmail.com"
 		recipients = ["dhmhtrhsv@hotmail.com", "efka.notifications@gmail.com","gtsapelas@epu.ntua.gr"]
 		message = 'Subject: {}\n\n{}'.format("Ειδοποιητήρια ΕΦΚΑ", "Τα ειδοποιητήρια του ΕΦΚΑ αναρτήθηκαν")
